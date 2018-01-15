@@ -63,9 +63,21 @@ table {
   font-style: normal;
 }
 
-body {
+.main-page {
   background: #74b4b4;
-  color: #f9ebd9;
+  color: #f9ebd9
+}
+.about {
+  background: #e4e0d0;
+}
+.portfolio {
+  background: #e58d6b;
+}
+.blog {
+  background: #dbd8d5;
+}
+.contact-page {
+  background: #4a4e55;
 }
 
 /*
