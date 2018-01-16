@@ -268,12 +268,17 @@ a:hover {
 
 .slideshow {
   display: block;
-  background: #fff;
   margin: 50px 0;
   padding: 10px;
 }
+.slideshow img {
+  background: #fff;
+  padding: 10px 10px 10px 10px;
+}
 .slideshow figcaption {
+  display: block;
   color: #4a4e55;
   font: 700 16px/22px sans-serif;
   margin-top: 5px;
+
 }
