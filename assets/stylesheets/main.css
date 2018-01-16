@@ -88,7 +88,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
   }
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.2em;
 }
 .main-page h1 {
   text-shadow: 1px 2px #484A4D, 3px 4px #D4CEBF;
@@ -344,5 +347,5 @@ a:hover {
 */
 
 .big-icon {
-  color: #484A4D;
+  margin: 10px 20px;
 }
