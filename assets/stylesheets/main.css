@@ -53,16 +53,6 @@ table {
   ========================================
 */
 
-@font-face {
-  font-family: 'Bazar';
-  src:url('Bazar.ttf.woff') format('woff'),
-      url('Bazar.ttf.svg#Bazar') format('svg'),
-      url('Bazar.ttf.eot'),
-      url('Bazar.ttf.eot?#iefix') format('embedded-opentype'); 
-  font-weight: normal;
-  font-style: normal;
-}
-
 .main-page {
   background: #74b4b4;
   color: #f9ebd9
@@ -87,8 +77,7 @@ table {
 */
 
 h1, h2, h3, h4, h5, h6 {
-  font: "Bazar";
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 
@@ -108,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .5px;
   text-align: center;
   text-transform: uppercase;
-  font: 700 16px "Bazar", sans-serif;
+  font: 700 16px sans-serif;
 }
 
 
