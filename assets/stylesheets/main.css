@@ -53,6 +53,13 @@ table {
   ========================================
 */
 
+body {
+  background: #74b4b4;
+}
+section {
+  border-bottom: 1px solid rgba(72, 74, 77, 0.5);
+  padding: 20px 0;
+}
 .main-page {
   background: #74b4b4;
   color: #f9ebd9
@@ -68,6 +75,7 @@ table {
 }
 .contact-page {
   background: #4a4e55;
+  color: #f9ebd9
 }
 
 /*
@@ -78,6 +86,24 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
+  }
+h2 {
+  font-size: 1.5em;
+}
+.main-page h1 {
+  text-shadow: 1px 2px #484A4D, 3px 4px #D4CEBF;
+}
+.about h1 {
+  text-shadow: 1px 2px #FCFAF7, 3px 4px #484A4D;
+}
+.portfolio h1 {
+  text-shadow: 1px 2px #FCFAF7, 3px 4px #484A4D;
+}
+.blog h1 {
+  text-shadow: 1px 2px #FCFAF7, 3px 4px #484A4D;
+}
+.contact-page h1 {
+  text-shadow: 1px 2px #484A4D, 3px 4px #D4CEBF;
 }
 
 
@@ -97,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .5px;
   text-align: center;
   text-transform: uppercase;
-  font: 700 16px sans-serif;;
+  font: 700 16px sans-serif;
   text-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
 
@@ -217,12 +243,37 @@ a:hover {
   padding-top: 50px;
   text-align: center;
 }
-.hero h2 {
-  font-size: 44px;
+.hero h1 {
+  font-size: 90px;
   font-weight: 600;
+  margin: 10px;
+
 }
 .main-page {
   padding-top: 200px;
 }
+.hr-bottom {
+  margin: 0;
+  border-top: 1px dashed rgba(0,0,0,0.25);
+  border-bottom: 1px dashed rgba(255,255,255,0.25);
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+/*
+  ========================================
+  Images
+  ========================================
+*/
 
-
+.slideshow {
+  display: block;
+  background: #fff;
+  margin: 50px 0;
+  padding: 10px;
+}
+.slideshow figcaption {
+  color: #4a4e55;
+  font: 700 16px/22px sans-serif;
+  margin-top: 5px;
+}
