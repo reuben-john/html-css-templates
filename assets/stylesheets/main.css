@@ -148,6 +148,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
   -webkit-box-shadow: 0 2px 23px -5px rgba(0,0,0,0.63);
      -moz-box-shadow: 0 2px 23px -5px rgba(0,0,0,0.63);
           box-shadow: 0 2px 23px -5px rgba(0,0,0,0.63);
