@@ -145,7 +145,6 @@ h2 {
 .primary-header {
   background: #78bbbb;
   height: 120px;
-  position: relative;
   position: fixed;
   top: 0;
   width: 100%;
