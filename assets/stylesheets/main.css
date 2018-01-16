@@ -374,6 +374,11 @@ a:hover {
 .big-icon:hover {
   margin-top: -7px;
 }
+.social-icon {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
 
 /*
   ========================================
@@ -399,4 +404,69 @@ a:hover {
 }
 .blog-entry img {
   border: 3px solid white;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+/*
+  ========================================
+  Register
+  ========================================
+*/
+form {
+  margin: 22px 0;
+}
+.comment-form label {
+  font-weight: 500;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+.comment-form input,
+.comment-form select,
+.comment-form textarea {
+  visibility: visible;
+  border: 1px solid #D4CEBF;
+  border-radius: 6px;
+  color: #293f50;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+.comment-form input,
+.comment-form textarea {
+  width: 50%;
+}
+.comment-form textarea {
+  height: 160px;
+}
+
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 2px;
+  color: #293f50;
+  font-weight: 700;
+}
+.btn-default {
+  margin: 10px;
+  border: 0;
+  background: #fcfaf7;
+  padding: 8px 13px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #f1efea;
+}
+
+.primary-footer div {
+  font-size: 10px;
 }
