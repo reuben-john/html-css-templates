@@ -93,11 +93,11 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 .primary-nav {
-  margin-top: 55px;
+  margin-top: 50px;
   letter-spacing: .5px;
   text-align: center;
   text-transform: uppercase;
-  font: 700 16px sans-serif;
+  font: 700 16px sans-serif;;
 }
 
 
@@ -118,6 +118,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #78bbbb;
   height: 120px;
   position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 .primary-header ul li:nth-of-type(3) {
   margin-left: 200px;
@@ -211,6 +214,9 @@ a:hover {
 .hero h2 {
   font-size: 44px;
   font-weight: 600;
+}
+.main-page {
+  padding-top: 200px;
 }
 
 
