@@ -1,0 +1,65 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 16/01/2018 18:30
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-paperclip:before { content: "\f100"; }
+.flaticon-picture-1:before { content: "\f101"; }
+.flaticon-newspaper:before { content: "\f102"; }
+.flaticon-picture:before { content: "\f103"; }
+.flaticon-follow-me-on-tumblr-social-badge:before { content: "\f104"; }
+.flaticon-follow-me-on-pinterest:before { content: "\f105"; }
+.flaticon-follow-me-on-google:before { content: "\f106"; }
+.flaticon-facebook-social-retro-circular-badge:before { content: "\f107"; }
+.flaticon-follow-us-on-twitter-retro-badge:before { content: "\f108"; }
+.flaticon-technology-1:before { content: "\f109"; }
+.flaticon-transparent-cassete:before { content: "\f10a"; }
+.flaticon-computer:before { content: "\f10b"; }
+.flaticon-technology:before { content: "\f10c"; }
+    
+    $font-Flaticon-paperclip: "\f100";
+    $font-Flaticon-picture-1: "\f101";
+    $font-Flaticon-newspaper: "\f102";
+    $font-Flaticon-picture: "\f103";
+    $font-Flaticon-follow-me-on-tumblr-social-badge: "\f104";
+    $font-Flaticon-follow-me-on-pinterest: "\f105";
+    $font-Flaticon-follow-me-on-google: "\f106";
+    $font-Flaticon-facebook-social-retro-circular-badge: "\f107";
+    $font-Flaticon-follow-us-on-twitter-retro-badge: "\f108";
+    $font-Flaticon-technology-1: "\f109";
+    $font-Flaticon-transparent-cassete: "\f10a";
+    $font-Flaticon-computer: "\f10b";
+    $font-Flaticon-technology: "\f10c";
