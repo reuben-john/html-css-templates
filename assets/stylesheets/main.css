@@ -443,7 +443,7 @@ form {
 }
 .comment-form input,
 .comment-form textarea {
-  width: 50%;
+  width: 350px;
 }
 .comment-form textarea {
   height: 160px;
