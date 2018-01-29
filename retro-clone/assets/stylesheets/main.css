@@ -255,15 +255,15 @@ a:hover {
 
 }
 .container {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.01041667%;
+  padding-right: 0.01041667%;
 }
 .grid,
 .col-1-3,
 .col-2-3,
 .col-1-4 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.0052083%;
+  padding-right: 0.0052083%;
 }
 .col-1-3,
 .col-2-3,
@@ -486,12 +486,6 @@ form {
   .slideshow img {
     max-width: 100%;
   }
-  .grid,
-  .col-1-3,
-  .col-1-4,
-  .col-2-3 {
-    display: block;
-  }
   .portfolio section {
     padding-bottom: 25px;
     margin-left: 8px;
@@ -506,7 +500,27 @@ form {
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 100%;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .blog-short {
+    max-width: 28%;
+    text-align: center;
+  }
+  .grid,
+  .col-1-3,
+  .col-1-4,
+  .col-2-3 {
+    width: 80%;
+  }
+  .big-icon {
+    margin: 0 auto; !important
   }
 }
 
@@ -526,13 +540,6 @@ form {
 @media (max-width: 767px) {
   .blog img {
       width: 85%;
-      margin-left: -40px;
-  }
-}
-
-@media (max-width: 700px) {
-  .blog-short {
-    max-width: 28%;
-    text-align: center;
+      margin: 0 auto;
   }
 }
