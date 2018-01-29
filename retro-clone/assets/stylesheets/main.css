@@ -386,12 +386,6 @@ a:hover {
   margin: 10px;
 }
 
-/*
-  ========================================
-  About
-  ========================================
-*/
-
 
 /*
   ========================================
@@ -412,11 +406,6 @@ a:hover {
   border: 3px solid white;
 }
 
-/*
-  ========================================
-  Contact
-  ========================================
-*/
 /*
   ========================================
   Register
@@ -475,4 +464,30 @@ form {
 
 .primary-footer div {
   font-size: 10px;
+}
+
+
+/*
+  ========================================
+  Responsive
+  ========================================
+*/
+
+@media screen and (max-width: 800px) {
+  .primary-nav a {display: none;}
+}
+
+@media screen and (max-width: 800px) {
+  .primary-nav.responsive {position: relative;}
+  .primary-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .primary-nav.responsive ul {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
 }
