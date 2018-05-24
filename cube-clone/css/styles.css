@@ -17,6 +17,8 @@ footer div {
   );
   background: linear-gradient(to right, #3dcdbc 0%, #33a1bd 100%);
   color: white;
+  height: 900px;
+  padding: 15% 0;
 }
 
 .brands {
@@ -64,4 +66,17 @@ nav a:hover {
 nav a:active {
   background-color: white !important;
   color: #33a1bd !important;
+}
+
+.btn-white {
+  border-radius: 0;
+  margin: 10px;
+  border: 0;
+  background: white;
+  padding: 11px 25px;
+  font-size: 1.1em;
+  color: #34a7bd;
+}
+.btn-white:hover {
+  background-color: #f6f6f6 !important;
 }
