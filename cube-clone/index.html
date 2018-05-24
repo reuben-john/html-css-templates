@@ -10,32 +10,56 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css ">
 
 </head>
 
 <body>
-
   <!-- Header -->
 
-  <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Web Design</a>
+              <a class="dropdown-item" href="#">eCommerce</a>
+              <a class="dropdown-item" href="#">Branding</a>
+              <a class="dropdown-item" href="#">API</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
     </nav>
   </header>
 
   <!-- Landing -->
-  <section>
-    <h1>Make Life Simpler</h1>
-    <p>Free template</p>
-    <p>
-      <a href="#">Visit</a>
-    </p>
+  <section class="container-fluid landing">
+    <div class="container">
+      <h1>Make Life Simpler</h1>
+      <p>Free template</p>
+      <p>
+        <a href="#">Visit</a>
+      </p>
+    </div>
   </section>
 
   <!-- Brands -->
@@ -100,14 +124,14 @@
 
     <div>Copyright footer</div>
   </footer>
-
-  <script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script></script>
+    crossorigin="anonymous"></script>
 
+  <script src="js/script.js"></script>
 </body>
 
 </html>
