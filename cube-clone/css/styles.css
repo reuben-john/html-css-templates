@@ -1,7 +1,35 @@
 header {
   background-color: white;
 }
+section div,
+footer div {
+  padding: 1px;
+}
 
 .landing {
+  background-color: #33a1bd;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3dcdbc),
+    to(#33a1bd)
+  );
   background: linear-gradient(to right, #3dcdbc 0%, #33a1bd 100%);
+}
+
+.brands {
+  background-color: #f6f6f6;
+}
+
+.testimonials {
+  background-color: #f6f6f6;
+}
+
+footer {
+  background-color: #262626;
+}
+
+.copyright {
+  background-color: #1a1a1a;
 }
