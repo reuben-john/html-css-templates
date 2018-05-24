@@ -24,16 +24,19 @@ footer div {
 .brands {
   background-color: #f6f6f6;
   color: #4d4d4d;
+  padding: 3em;
 }
 
 .services,
 .products {
   color: #4d4d4d;
+  padding: 7em 0;
 }
 
 .testimonials {
   background-color: #f6f6f6;
   color: #777;
+  padding: 7em;
 }
 .testimonials h1 {
   color: #4d4d4d;
@@ -42,6 +45,7 @@ footer div {
 footer {
   background-color: #262626;
   color: #777;
+  padding: 7em;
 }
 footer h1 {
   color: white;
