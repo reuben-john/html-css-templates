@@ -2,21 +2,24 @@
   "name": "defaults",
   "version": "1.0.0",
   "description": "Defaults for code",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.16.0",
+    "autoprefixer": "^8.5.0",
+    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-prettier": "^2.5.0",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "prettier": "^1.10.2"
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "eslint-plugin-html": "^4.0.3",
+    "jasmine": "^3.1.0",
+    "prettier": "^1.11.1",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
