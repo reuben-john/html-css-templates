@@ -16,20 +16,52 @@ footer div {
     to(#33a1bd)
   );
   background: linear-gradient(to right, #3dcdbc 0%, #33a1bd 100%);
+  color: white;
 }
 
 .brands {
   background-color: #f6f6f6;
+  color: #4d4d4d;
+}
+
+.services,
+.products {
+  color: #4d4d4d;
 }
 
 .testimonials {
   background-color: #f6f6f6;
+  color: #777;
+}
+.testimonials h1 {
+  color: #4d4d4d;
 }
 
 footer {
   background-color: #262626;
+  color: #777;
+}
+footer h1 {
+  color: white;
 }
 
 .copyright {
   background-color: #1a1a1a;
+  color: #777;
+}
+
+nav a {
+  color: #3ac1bc;
+}
+
+nav a:hover {
+  color: #33a1bd;
+}
+.active {
+  color: black;
+}
+
+nav a:active {
+  background-color: white !important;
+  color: #33a1bd !important;
 }
